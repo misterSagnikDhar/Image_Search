@@ -1,0 +1,13 @@
+.venv/
+.idea/
+__pycache__/
+db.sqlite3
+unsplash_api_key.txt
+node_modules/
+notes.txt
+App.css
+logo.svg
+logo192.png
+logo512.png
+robots.txt
+.env
