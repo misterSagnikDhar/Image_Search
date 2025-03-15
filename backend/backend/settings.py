@@ -147,7 +147,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 #MongoDB Configuration:
 # MONGO_URI = "mongodb://localhost:27018"
-# MONGO_DB_NAME = "Image_Search"
+MONGO_DB_NAME = "Image_Search"
 
 
 
