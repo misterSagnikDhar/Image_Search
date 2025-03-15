@@ -64,6 +64,11 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
 ]
 
+# Allow all *.onrender.com domains (Optional)
+CORS_ORIGIN_REGEX_WHITELIST = [
+    r"^https://.*\.onrender\.com$",  # Matches any https://*.onrender.com
+]
+
 ROOT_URLCONF = "backend.urls"
 
 TEMPLATES = [
