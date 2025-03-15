@@ -14,10 +14,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-h=x_7@9zwwh+oum7fp_-7ew3&tai8^&%r^l&_e00k&!lvsaep!"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
 # Production Build
-# DEBUG = False
+DEBUG = False
 
 ALLOWED_HOSTS = ['image-search-kof0.onrender.com', 'localhost', '127.0.0.1']
 # ALLOWED_HOSTS = ['*']
